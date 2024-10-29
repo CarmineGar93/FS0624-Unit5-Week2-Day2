@@ -18,10 +18,9 @@ public class Blog {
     private int tempoDiLettura;
     private static int count = 1;
 
-    public Blog(String titolo, TipoBlog categoria, String contenuto, int tempoDiLettura) {
+    public Blog(String titolo, String contenuto, int tempoDiLettura) {
         this.id = count;
         this.titolo = titolo;
-        this.categoria = categoria;
         this.contenuto = contenuto;
         this.tempoDiLettura = tempoDiLettura;
         count++;

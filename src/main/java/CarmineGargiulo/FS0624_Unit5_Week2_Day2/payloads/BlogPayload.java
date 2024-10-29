@@ -13,5 +13,5 @@ public class BlogPayload {
     private String titolo;
     private String categoria;
     private String contenuto;
-    private int tempoDiLettura;
+    private String tempoDiLettura;
 }
